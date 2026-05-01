@@ -81,7 +81,7 @@ layers:
   - ''
   - '&studio_unlock'
   - ''
-  - {t: ▽, type: trans}
+  - {t: raise, h: toggle}
   - SPACE
   - RET
   - {type: held}
@@ -124,7 +124,7 @@ layers:
   - '|'
   - '~'
   - LGUI
-  - {t: ▽, type: trans}
+  - {t: raise, h: toggle}
   - SPACE
   - RET
   - {t: ▽, type: trans}
