@@ -23,15 +23,6 @@
         };
     };
 
-    macros {
-        pass: pass {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp N1 &kp Q &kp A &kp Z &kp AT &kp LS(W) &kp LS(S) &kp LS(X) &kp N3 &kp E &kp D &kp C &kp DLLR &kp LS(R) &kp LS(F) &kp LS(V) &kp EXCL &kp AT &kp POUND &kp DLLR>;
-            label = "PASS";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
