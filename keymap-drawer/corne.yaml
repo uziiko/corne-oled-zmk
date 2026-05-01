@@ -175,3 +175,5 @@ layers:
 combos:
 - p: [35, 34]
   k: PRINTSCREEN
+- p: [16, 15]
+  k: Gui+SPACE
