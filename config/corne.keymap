@@ -23,6 +23,15 @@
         };
     };
 
+    macros {
+        Test_p: Test_p {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N1 &kp Q &kp A &kp Z &kp AT &kp LS(W) &kp LS(S) &kp LS(X) &kp N3 &kp E &kp D &kp C &kp DLLR &kp LS(R) &kp LS(F) &kp LS(V) &kp EXCL &kp AT &kp POUND &kp DLLR>;
+            label = "TEST_P";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -52,7 +61,7 @@
 &none  &kp N1        &kp N2     &kp N3     &kp N4  &kp N5       &bt BT_CLR    &none           &kp UP_ARROW  &none      &none    &none
 &none  &kp NUMBER_6  &kp N7     &kp N8     &kp N9  &kp N0       &bt BT_SEL 0  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none    &none
 &none  &kp MINUS     &kp EQUAL  &kp SLASH  &none   &none        &bt BT_SEL 1  &none           &none         &none      &kp DOT  &studio_unlock
-                                &none      &tog 2  &kp SPACE    &kp RET       &none           &none
+                                &none      &mo 2   &kp SPACE    &kp RET       &none           &none
             >;
         };
 
