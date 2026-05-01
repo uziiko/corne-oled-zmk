@@ -67,7 +67,7 @@ layers:
   - DOWN
   - RIGHT
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - '-'
   - +
@@ -75,17 +75,17 @@ layers:
   - ''
   - ''
   - {t: BT, h: '1'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   - '&studio_unlock'
   - ''
   - {t: ▽, type: trans}
   - SPACE
   - RET
   - {type: held}
-  - RALT
+  - ''
   raise:
   - TAB
   - '!'
