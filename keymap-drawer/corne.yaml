@@ -172,3 +172,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [35, 34]
+  k: PRINTSCREEN
