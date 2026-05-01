@@ -81,7 +81,7 @@ layers:
   - .
   - '&studio_unlock'
   - ''
-  - {t: raise, h: toggle}
+  - raise
   - SPACE
   - RET
   - {type: held}
@@ -124,10 +124,10 @@ layers:
   - '|'
   - '~'
   - ''
-  - '3'
+  - {t: '3', type: held}
   - SPACE
   - RET
-  - {t: ▽, type: trans}
+  - {type: held}
   - RALT
   '3':
   - {t: ▽, type: trans}
@@ -170,7 +170,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [35, 34]
