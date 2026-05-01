@@ -16,6 +16,11 @@
             bindings = <&kp PRINTSCREEN>;
             key-positions = <35 34>;
         };
+
+        langv {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <16 15>;
+        };
     };
 
     macros {
