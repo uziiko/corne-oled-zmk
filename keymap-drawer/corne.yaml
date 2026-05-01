@@ -55,7 +55,7 @@ layers:
   - UP ARROW
   - ''
   - ''
-  - ''
+  - '&pass'
   - ''
   - '6'
   - '7'
@@ -78,7 +78,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - .
   - '&studio_unlock'
   - ''
   - {t: raise, h: toggle}
@@ -123,8 +123,8 @@ layers:
   - '}'
   - '|'
   - '~'
-  - LGUI
-  - {t: raise, h: toggle}
+  - ''
+  - '3'
   - SPACE
   - RET
   - {t: ▽, type: trans}
@@ -167,7 +167,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
