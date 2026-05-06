@@ -67,7 +67,7 @@ layers:
   - DOWN
   - RIGHT
   - ''
-  - BT CLR
+  - ''
   - ''
   - '-'
   - '='
@@ -98,7 +98,7 @@ layers:
   - '*'
   - (
   - )
-  - BSPC
+  - BT CLR
   - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -110,7 +110,7 @@ layers:
   - '['
   - ']'
   - \
-  - '`'
+  - ''
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
