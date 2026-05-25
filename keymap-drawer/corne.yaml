@@ -55,7 +55,7 @@ layers:
   - UP ARROW
   - ''
   - ''
-  - '&Test_p'
+  - '&my_pass'
   - ''
   - '6'
   - '7'
@@ -81,11 +81,11 @@ layers:
   - .
   - '&studio_unlock'
   - raise
-  - LEFT SHIFT
-  - SPACE
-  - RET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   raise:
   - ''
   - F1
@@ -94,9 +94,9 @@ layers:
   - F4
   - F5
   - ''
-  - ''
-  - ''
-  - ''
+  - '&mkp LCLK'
+  - '&mmv MOVE_UP'
+  - '&mkp RCLK'
   - ''
   - BT CLR ALL
   - ''
@@ -106,9 +106,9 @@ layers:
   - F9
   - F10
   - ''
-  - ''
-  - ''
-  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - ''
   - BT CLR
   - ''
@@ -119,16 +119,16 @@ layers:
   - ''
   - ''
   - ''
+  - '&mkp MCLK'
   - ''
   - ''
   - ''
-  - ''
-  - {type: held}
-  - ''
-  - SPACE
-  - RET
+  - {t: LEFT GUI, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: '3', type: held}
-  - RALT
+  - {t: ▽, type: trans}
   '3':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
