@@ -25,11 +25,11 @@
     };
 
     macros {
-        my_pass: new_macro {
+        my_pass_1: my_pass_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp N1 &kp Q &kp A &kp Z &kp AT &kp LS(W) &kp LS(S) &kp LS(X) &kp N3 &kp E &kp D &kp C &kp DLLR &kp LS(R) &kp LS(F) &kp LS(V) &kp EXCL &kp AT &kp POUND &kp DLLR>;
-            label = "NEW_MACRO";
+            bindings = <&kp N1 &kp Q &kp A &kp Z &kp AT &kp LS(W) &kp LS(S) &kp LS(X) &kp N3 &kp E &kp D &kp C &kp DLLR &kp LS(R) &kp LS(F) &kp LS(V) &kp EXCL &kp AT &kp POUND &kp DLLR>;
+            label = "MY_PASS_1";
         };
     };
 
@@ -59,7 +59,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE   &kp N1        &kp N2     &kp N3     &kp N4  &kp N5    &bt BT_SEL 0  &none           &kp UP_ARROW  &none      &none    &my_pass
+&kp GRAVE   &kp N1        &kp N2     &kp N3     &kp N4  &kp N5    &bt BT_SEL 0  &none           &kp UP_ARROW  &none      &none    &my_pass_1
 &none       &kp NUMBER_6  &kp N7     &kp N8     &kp N9  &kp N0    &bt BT_SEL 1  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &none    &none
 &kp ESCAPE  &kp MINUS     &kp EQUAL  &kp SLASH  &none   &none     &bt BT_SEL 2  &none           &none         &none      &kp DOT  &studio_unlock
                                      &mo 2      &trans  &trans    &trans        &none           &trans
